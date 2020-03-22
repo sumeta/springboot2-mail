@@ -23,7 +23,7 @@ public class GmailController {
     private void sentMail()	{
         SimpleMailMessage msg = new SimpleMailMessage();
 
-        msg.setTo("sumeta.pon@gmail.com");
+        msg.setTo("xxx@gmail.com");
 
         msg.setSubject("Testing from Spring Boot");
         msg.setText("Hello World \n Spring Boot Email");
