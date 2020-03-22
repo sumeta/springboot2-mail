@@ -11,8 +11,8 @@
 	<groupId>io.github.sumeta.springboot</groupId>
 	<artifactId>sumeta.springboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot2-paypal</name>
-	<description>Spring Boot 2 PayPal</description>
+	<name>springboot2-mail</name>
+	<description>Spring Boot 2 Mail</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -27,10 +27,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!-- send email -->
 		<dependency>
-			<groupId>com.paypal.sdk</groupId>
-			<artifactId>rest-api-sdk</artifactId>
-			<version>LATEST</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 
 		<dependency>
