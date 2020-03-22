@@ -1,5 +1,3 @@
-# springboot2-paypal
-Spring Boot 2 PayPal Sample
-
-Credit : https://github.com/masasdani/paypal-springboot
+# springboot2-Mail
+Spring Boot 2 Mail Sample
 
